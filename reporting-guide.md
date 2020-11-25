@@ -68,17 +68,7 @@ The following request example includes both a JSON message request body and a `c
       "metrics":[
          {
             "columnId":"0",
-            "id":"metrics/pageviews",
-            "filters":[
-               "0"
-            ]
-         }
-      ],
-      "metricFilters":[
-         {
-            "id":"0",
-            "type":"dateRange",
-            "dateRange":"2017-12-31T00:00:00.000/2018-01-06T23:59:59.999"
+            "id":"metrics/pageviews"
          }
       ]
    },
